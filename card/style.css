@@ -1,0 +1,52 @@
+
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h1{
+    position: absolute;
+    margin-top: 1px;
+    margin-left:1px;
+    background-color: antiquewhite;
+}
+span{color:brown}
+
+.card-body{
+   
+       position: absolute;
+       margin-top: -20px;
+       width: 21rem;
+       border-radius: 20px;
+       background: linear-gradient(90deg, rgb(183, 89, 89),black);
+       padding: 1px;
+      
+       color: whitesmoke;
+       
+}
+
+.container{
+   
+    width: 21rem; 
+    overflow: hidden;
+   text-align: center;
+ 
+}
+
+
+h1:hover{
+    background:linear-gradient(lightblue,white)
+}
+h2:hover,p:hover{
+    color:black
+}
+div:hover{
+    background:linear-gradient(lightblue,white)
+}
+body{display: flex;
+justify-content: center;}
